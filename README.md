@@ -24,10 +24,15 @@ heart_disease_prediction_model/
 ### Citation
 
 **Name:** Heart Disease
+
 **Source:** UCI Machine Learning Repository
+
 **Citation:** Janosi, A., Steinbrunn, W., Pfisterer, M., & Detrano, R. (1988). Heart Disease. UCI Machine Learning Repository.
+
 **DOI:** 10.24432/C52P4X
+
 **Link:** https://archive.ics.uci.edu/dataset/45/heart+disease
+
 **License:** CC BY 4.0
 
 ### Dataset Structure
