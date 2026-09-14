@@ -14,7 +14,21 @@ heart_disease_prediction_model/
 │ └── 3_Preprocessing.ipynb
 │ └── 4_Model_Evaluation.ipynb
 │ └── 05_Final_Model.ipynb
-├── 2_reports/
-│ └── project_report.pptx
+├── 2_streamlit_app/
+│ └── app.py
+├── 3_report/
 └── README.md
 ```
+## ℹ️ Dataset Information
+
+### Citation
+
+**Name:** Heart Disease
+**Source:** UCI Machine Learning Repository
+**Citation:** Janosi, A., Steinbrunn, W., Pfisterer, M., & Detrano, R. (1988). Heart Disease. UCI Machine Learning Repository.
+**DOI:** 10.24432/C52P4X
+**Link:** https://archive.ics.uci.edu/dataset/45/heart+disease
+**License:** CC BY 4.0
+
+### Dataset Structure
+
