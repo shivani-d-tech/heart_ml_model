@@ -84,3 +84,48 @@ Find the data understanding notebook [here](./1_notebooks/1_data_Understanding.i
 <p align="center">
   <img src="https://github.com/user-attachments/assets/7006e6a4-f19d-4454-9065-7a8f220b27a8" width="500" />
 
+## ⚙️ Feature Engineering & Preprocessing
+
+**Method:**
+* Converted numeric categorical values into readable labels (e.g., 0 -> False, 1 -> True) to improve the interpretability of both the data and model outputs.
+* Engineered an `age_bucket` feature, grouping patients into categories such as `young`, `middle-aged`, and `senior`.
+* Engineered an `oldpeak_threshold` feature, categorising ST depression values into `low`, `medium`, `high`, and `very high` risk groups.
+* Simplified the target variable by mapping 0 -> 0 (no CAD) and 1, 2, 3, 4 -> 1 (presence of CAD), converting the original multi-class diagnosis into a binary classification problem.
+* Developed a preprocessing pipeline to prepare features for modelling:
+  * Applied One-Hot Encoding to categorical features.
+  * Applied StandardScaler to numerical features to standardise feature distribtions.
+
+## ⚖️ Model Evaluation and Selection
+* Evaluated three machine learning algorithms for CAD prediction:
+  * Logistic Regression
+  * Random Forest
+  * XGBoost
+* Developed and assessed three versions of each model:
+  * **Baseline Model:** using default parameters and standard classification threshold.
+  * **Threshold-Adjusted Model:** Where the decision threshold was optimised to achieve a recall of 1.00, ensuring all CAD-positive cases were identified.
+  * **Hyperparameter-Tuned Model:** Optimised using parameter tuning techniques to improve predictive performance.
+* Evaluated each model version using:
+  * Classification report (precision, recall, F1-score, and accuracy)
+  * Confusion Matrix
+  * Comparative performance analysis across evaluation metrics
+* Selected the best-performing version of each algorithm and performed a final comparison to identify the most suitable model for CAD risk prediction:
+  
+  <img width="400" height="106" alt="image" src="https://github.com/user-attachments/assets/919294ae-5a2d-4c98-bd28-453fcbe6ddb1" />
+
+* Prioritised recall as the primary evaluation metric, as minimising false negatives is critical in a clinical screening setting.
+* The final selected model was the **Threshold-Adjusted Logistic Regression** model.
+* Threshold-Adjusted Logistic Regression outperformed the corresponding Random Forest and XGBoost models by achieving the highest precision, F1 score, and overall accuracy while maintaining a good recall.
+
+## 🌐 Streamlit App
+* Deployed the final CAD prediction model as an interaction Streamlit web application.
+* Enabled users to enter clinical data through an intuitive user interface.
+* Generated a personalised CAD risk score and classification based on the submitted clinical measurements.
+* Added a LIME Explanation to provide instance-level explanations for each prediction, showing which ptient features increased or decreased the predicted CAD risk score.
+* Incorporated a customisable decision threshold, allowing users to compare predictions made using the default threshold against their own selected threshold.
+  * This demonstrated the impact of threshold selection on clinical screening outcomes and the trade-off between recall and precision.
+* Displayed key model performance metrics to provide transparency into model performance.
+* Included feature importance visualisations to highlight the clinical variables that contribute most strongly to CAD risk predictions.
+
+**Watch the CAD Risk Prediction Demo Here**
+
+
