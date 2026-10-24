@@ -1,6 +1,9 @@
 # Predicting Risk Scores for Coronary Artery Disease (CAD)
 A machine learning project which outputs the probability of a patient developing Coronary Artery Disease (CAD) from patient measurements.
 
+## ⚠️ Disclaimer
+This machine learning project is intended solely for educational and portfolio purposes to demonstrate programming and data science skills. It is not a medical device, has not been clinically validated, and must not be used for diagnosis, prognosis, treatment decisions, or any clinical application.
+
 ## 🎯 Project Overview
 To develop a supervised machine learning model to predict the probability risk of a patient developing Coronary Artery Disease (CAD), using structured health data.
 
@@ -128,5 +131,3 @@ Find the data understanding notebook [here](./1_notebooks/1_data_Understanding.i
 * Included feature importance visualisations to highlight the clinical variables that contribute most strongly to CAD risk predictions.
 
 **[Download and Watch the CAD Risk Prediction Demo Here](2_streamlit_app/CAD_project_demo.mp4)**
-
-
