@@ -15,6 +15,7 @@ heart_disease_prediction_model/
 │ └── 4_Model_Evaluation.ipynb
 │ └── 05_Final_Model.ipynb
 ├── 2_streamlit_app/
+│ └── CAD_project_demo.mp4
 │ └── app.py
 ├── 3_report/
 └── README.md
@@ -126,6 +127,6 @@ Find the data understanding notebook [here](./1_notebooks/1_data_Understanding.i
 * Displayed key model performance metrics to provide transparency into model performance.
 * Included feature importance visualisations to highlight the clinical variables that contribute most strongly to CAD risk predictions.
 
-**Watch the CAD Risk Prediction Demo Here**
+**[Download and Watch the CAD Risk Prediction Demo Here](2_streamlit_app/CAD_project_demo.mp4)**
 
 
