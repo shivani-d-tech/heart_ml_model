@@ -88,6 +88,8 @@ Find the data understanding notebook [here](./1_notebooks/1_data_Understanding.i
 <p align="center">
   <img src="https://github.com/user-attachments/assets/7006e6a4-f19d-4454-9065-7a8f220b27a8" width="500" />
 
+Find the EDA notebook [here](1_notebooks/2_EDA.ipynb)
+
 ## ⚙️ Feature Engineering & Preprocessing
 
 **Method:**
@@ -98,6 +100,8 @@ Find the data understanding notebook [here](./1_notebooks/1_data_Understanding.i
 * Developed a preprocessing pipeline to prepare features for modelling:
   * Applied One-Hot Encoding to categorical features.
   * Applied StandardScaler to numerical features to standardise feature distribtions.
+
+Find the preprocessing notebook [here](1_notebooks/3_Preprocessing.ipynb)
 
 ## ⚖️ Model Evaluation and Selection
 * Evaluated three machine learning algorithms for CAD prediction:
@@ -120,6 +124,8 @@ Find the data understanding notebook [here](./1_notebooks/1_data_Understanding.i
 * The final selected model was the **Threshold-Adjusted Logistic Regression** model.
 * Threshold-Adjusted Logistic Regression outperformed the corresponding Random Forest and XGBoost models by achieving the highest precision, F1 score, and overall accuracy while maintaining a good recall.
 
+Find the model evaluation notebook [here](1_notebooks/4_Model_Evalutation.ipynb)
+
 ## 🌐 Streamlit App
 * Deployed the final CAD prediction model as an interaction Streamlit web application.
 * Enabled users to enter clinical data through an intuitive user interface.
@@ -131,3 +137,5 @@ Find the data understanding notebook [here](./1_notebooks/1_data_Understanding.i
 * Included feature importance visualisations to highlight the clinical variables that contribute most strongly to CAD risk predictions.
 
 **[Download and Watch the CAD Risk Prediction Demo Here](2_streamlit_app/CAD_project_demo.mp4)**
+
+Find the Streamlit script [here](2_streamlit_app/app.py)
