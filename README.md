@@ -66,7 +66,7 @@ heart_disease_prediction_model/
 |thal|thalium stress test result|3 = normal; 6 = fixed defect; 7 = reversible defect|Feature|
 |**target**|**diagnosis of heart disease (angiographic disease status)**| **0 - 4 (0 = no diagnosis; 1-4 = diagnosis with '4' being most severe)**|**Target**|
 
-Find the data understanding notebook [here](./1_notebooks/1_data_understanding.ipynb).
+Find the data understanding notebook [here](./1_notebooks/1_data_understanding_cleaning.ipynb).
 
 ## 📈 Exploratory Data Analysis
 
