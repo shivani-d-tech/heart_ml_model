@@ -124,7 +124,7 @@ Find the preprocessing notebook [here](1_notebooks/3_Preprocessing.ipynb)
 * The final selected model was the **Threshold-Adjusted Logistic Regression** model.
 * Threshold-Adjusted Logistic Regression outperformed the corresponding Random Forest and XGBoost models by achieving the highest precision, F1 score, and overall accuracy while maintaining a good recall.
 
-Find the model evaluation notebook [here](1_notebooks/4_Model_Evalutation.ipynb)
+Find the model evaluation notebook [here](1_notebooks/4_Model_Evaluation.ipynb)
 
 ## 🌐 Streamlit App
 * Deployed the final CAD prediction model as an interaction Streamlit web application.
